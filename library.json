@@ -1,0 +1,11 @@
+{
+  "name": "Enphase",
+  "type": "module",
+  "version": "1.0.0",
+  "author": "Generated",
+  "url": "https://example.local",
+  "compatibility": {
+    "php": "7.4",
+    "symcon": "6.0"
+  }
+}

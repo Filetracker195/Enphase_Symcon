@@ -1,0 +1,55 @@
+{
+  "id": "{E1A9B2C0-0001-4F2A-9B1A-000000000001}",
+  "name": "Enphase Gateway",
+  "type": 3,
+  "vendor": "Enphase",
+  "version": "1.0",
+  "compatibility": {
+    "php": "7.4",
+    "symcon": "6.0"
+  },
+  "properties": [
+    {
+      "name": "Host",
+      "caption": "Envoy Host",
+      "type": "string",
+      "default": "https://envoy.local"
+    },
+    {
+      "name": "ClientID",
+      "caption": "Client ID",
+      "type": "string",
+      "default": ""
+    },
+    {
+      "name": "ClientSecret",
+      "caption": "Client Secret",
+      "type": "password",
+      "default": ""
+    },
+    {
+      "name": "UserID",
+      "caption": "Enphase User ID",
+      "type": "string",
+      "default": ""
+    },
+    {
+      "name": "UpdateInterval",
+      "caption": "Update Interval Seconds",
+      "type": "integer",
+      "default": 60
+    },
+    {
+      "name": "AutoDeleteInverters",
+      "caption": "Auto delete missing inverters",
+      "type": "boolean",
+      "default": true
+    },
+    {
+      "name": "Debug",
+      "caption": "Enable Debug Logging",
+      "type": "boolean",
+      "default": false
+    }
+  ]
+}
