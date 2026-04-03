@@ -6,6 +6,6 @@
   "url": "https://example.local",
   "compatibility": {
     "php": "7.4",
-    "symcon": "6.0"
+    "symcon": "9.0"
   }
 }
